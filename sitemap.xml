@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://lexsap.com.pe/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsap.com.pe/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lexsap.com.pe/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsap.com.pe/"/>
+  </url>
+  <url>
+    <loc>https://lexsap.com.pe/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsap.com.pe/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lexsap.com.pe/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsap.com.pe/"/>
+  </url>
+  <url>
+    <loc>https://lexsap.com.pe/about_us.php</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsap.com.pe/about_us.php"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lexsap.com.pe/es/nosotros.php"/>
+  </url>
+  <url>
+    <loc>https://lexsap.com.pe/es/nosotros.php</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsap.com.pe/about_us.php"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lexsap.com.pe/es/nosotros.php"/>
+  </url>
+  <url>
+    <loc>https://lexsap.com.pe/services.php</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsap.com.pe/services.php"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lexsap.com.pe/es/servicios.php"/>
+  </url>
+  <url>
+    <loc>https://lexsap.com.pe/es/servicios.php</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsap.com.pe/services.php"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lexsap.com.pe/es/servicios.php"/>
+  </url>
+  <url>
+    <loc>https://lexsap.com.pe/contact.php</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsap.com.pe/contact.php"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lexsap.com.pe/es/contacto.php"/>
+  </url>
+  <url>
+    <loc>https://lexsap.com.pe/es/contacto.php</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsap.com.pe/contact.php"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lexsap.com.pe/es/contacto.php"/>
+  </url>
+</urlset>
