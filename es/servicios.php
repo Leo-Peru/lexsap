@@ -1,8 +1,13 @@
 <?php
-include 'vistas/head.php';
-?>
-<?php
 $pagina = "servicios";
+$page_title = "Servicios de Propiedad Intelectual marcas y patentes en Perú | LEXSAP";
+$page_description = "Servicios legales y regulatorios integrales en Perú: Registro de marcas y derechos de autor, patentes, litigios de PI, licencias y contratos";
+$page_keywords = "servicios propiedad intelectual, registro marcas indecopi, patentes peru, litigios marcas, registros sanitarios digemid, autorizacion digesa peru";
+$canonical_url = "https://lexsap.com.pe/es/servicios.php";
+$alternate_en = "https://lexsap.com.pe/services.php";
+$alternate_es = "https://lexsap.com.pe/es/servicios.php";
+$breadcrumb_name = "Servicios";
+include 'vistas/head.php';
 include 'vistas/navbar.php';
 ?>
 
@@ -11,13 +16,11 @@ include 'vistas/navbar.php';
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
         <div class="container">
-
             <ol>
                 <li><a href="index.php">Inicio</a></li>
                 <li>Servicios</li>
             </ol>
-            <h2>Servicios</h2>
-
+            <h1>Servicios</h1>
         </div>
     </section><!-- End Breadcrumbs -->  
 
@@ -40,56 +43,54 @@ include 'vistas/navbar.php';
                 <div class="col-lg-4 col-md-6">
                     <div class="icon-box">
                         <div class="icon"><i class="bx bx-copyright"></i></div>
-                        <img src="../assets/img/servicios/marcas.jpg" class="img-fluid" alt="marcas">
-                        <h4><a>Marcas y Derechos de Autor</a></h4>
-                        <p>Asesoramiento de alto nivel sobre marcas y uso de derechos de autor</p>
+                        <img src="../assets/img/servicios/marcas.jpg" class="img-fluid" alt="Registro de Marcas y Derechos de Autor en Perú INDECOPI" loading="lazy">
+                        <h3>Marcas y Derechos de Autor</h3>
+                        <p>Asesoramiento de alto nivel sobre registro de marcas, lemas comerciales y protección de derechos de autor ante INDECOPI.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="icon-box">
                         <div class="icon"><i class="bx bx-arch"></i></div>
-                        <img src="../assets/img/servicios/litigios.jpg" class="img-fluid" alt="litigios">                        
-                        <h4><a>Litigios de Propiedad Intelectual</a></h4>
-                        <p>Litigios en materia de propiedad intelectual "P.I."</p>
+                        <img src="../assets/img/servicios/litigios.jpg" class="img-fluid" alt="Litigios y Oposiciones de Propiedad Intelectual en Perú" loading="lazy">                        
+                        <h3>Litigios de Propiedad Intelectual</h3>
+                        <p>Defensa contra infracciones, oposiciones, acciones de nulidad, cancelaciones y competencia desleal.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="icon-box">
                         <div class="icon"><i class="bx bx-spreadsheet"></i></div>
-                        <img src="../assets/img/servicios/licencias-de-uso.jpg" class="img-fluid" alt="Licencias de uso">
-                        <h4><a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Licencias de Uso &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h4>
-                        <p>Acuerdos de distribución para explotación de marcas comerciales</p>
-
+                        <img src="../assets/img/servicios/licencias-de-uso.jpg" class="img-fluid" alt="Licencias de Uso y Contratos de Franquicia en Perú" loading="lazy">
+                        <h3>Licencias de Uso</h3>
+                        <p>Elaboración e inscripción de acuerdos de distribución, franquicias y cesión de explotación de marcas comerciales.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="icon-box">
                         <div class="icon"><i class="bx bx-layer"></i></div>
-                        <img src="../assets/img/servicios/patente.jpg" class="img-fluid" alt="Patente">                        
-                        <h4><a>Patentes</a></h4>
-                        <p>Una patente protege una invención que creaste. </p>
+                        <img src="../assets/img/servicios/patente.jpg" class="img-fluid" alt="Patentes de Invención y Modelos de Utilidad en Perú" loading="lazy">                        
+                        <h3>Patentes de Invención</h3>
+                        <p>Protección y tramitación de patentes de invención, modelos de utilidad y diseños industriales ante la oficina de patentes.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="icon-box">
                         <div class="icon"><i class="bx bx-file"></i></div>
-                        <img src="../assets/img/servicios/renovaciones.jpg" class="img-fluid" alt="Renovaciones"> 
-                        <h4><a>Renovaciones</a></h4>
-                        <p>Renovaciones de Marcas</p>
-                        <p>&nbsp;</p>
+                        <img src="../assets/img/servicios/renovaciones.jpg" class="img-fluid" alt="Renovación de Marcas Comerciales INDECOPI" loading="lazy"> 
+                        <h3>Renovaciones</h3>
+                        <p>Gestión oportuna de renovaciones de registros marcarios y signos distintivos para mantener la protección vigente.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-6">
                     <div class="icon-box">
                         <div class="icon"><i class="bx bx-receipt"></i></div>
-                        <img src="../assets/img/servicios/modificatorios.jpg" class="img-fluid" alt="Actos Modificatorios"> 
-                        <h4><a>Actos Modificatorios</a></h4>
-                        <p>Actos modificatorios al registro de marcas, patentes, modelos de utilidad y otros. </p>
+                        <img src="../assets/img/servicios/modificatorios.jpg" class="img-fluid" alt="Actos Modificatorios de Registro de Marcas y Patentes" loading="lazy"> 
+                        <h3>Actos Modificatorios</h3>
+                        <p>Inscripción de cambios de titular, cambio de domicilio, fusiones societarias y transferencias de derechos de PI.</p>
                     </div>
                 </div>
 
@@ -105,16 +106,17 @@ include 'vistas/navbar.php';
                 <div class="col-lg-6 col-md-6">
                     <div class="icon-box">
                         <div class="icon"><i class="bx bx-buildings"></i></div>
-                        <img src="../assets/img/servicios/farmaceuticos.jpg" class="img-fluid" alt="DIGEMID"> 
-                        <h4><a>Productos Farmacéuticos y Cosméticos – DIGEMID</a></h4>
+                        <img src="../assets/img/servicios/farmaceuticos.jpg" class="img-fluid" alt="Registros Sanitarios DIGEMID Productos Farmacéuticos y Cosméticos" loading="lazy"> 
+                        <h3>Productos Farmacéuticos y Cosméticos – DIGEMID</h3>
+                        <p>Obtención de registros sanitarios, autorizaciones de comercialización y cumplimiento normativo ante DIGEMID para medicamentos, dispositivos médicos y cosméticos.</p>
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="icon-box">
                         <div class="icon"><i class="bx bx-building-house"></i></div>
-                        <img src="../assets/img/servicios/alimenticios.jpg" class="img-fluid" alt="DIGESA"> 
-                        <h4><a>Productos Alimenticios - DIGESA</a></h4>
-                        <p>&nbsp;</p>                       
+                        <img src="../assets/img/servicios/alimenticios.jpg" class="img-fluid" alt="Registros Sanitarios DIGESA Alimentos y Bebidas Industrializados" loading="lazy"> 
+                        <h3>Productos Alimenticios – DIGESA</h3>
+                        <p>Inscripción y reinscripción de registro sanitario para alimentos y bebidas procesadas, aditivos y suplementos ante DIGESA en Perú.</p>                       
                     </div>
                 </div>
             </div>

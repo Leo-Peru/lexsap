@@ -1,46 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Homepage EN -->
   <url>
     <loc>https://lexsap.com.pe/</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsap.com.pe/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://lexsap.com.pe/es/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsap.com.pe/"/>
   </url>
+
+  <!-- Homepage ES -->
   <url>
     <loc>https://lexsap.com.pe/es/</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://lexsap.com.pe/"/>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://lexsap.com.pe/es/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsap.com.pe/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsap.com.pe/"/>
   </url>
-  <url>
-    <loc>https://lexsap.com.pe/about_us.php</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://lexsap.com.pe/about_us.php"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://lexsap.com.pe/es/nosotros.php"/>
-  </url>
-  <url>
-    <loc>https://lexsap.com.pe/es/nosotros.php</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://lexsap.com.pe/about_us.php"/>
-    <xhtml:link rel="alternate" hreflang="es" href="https://lexsap.com.pe/es/nosotros.php"/>
-  </url>
+
+  <!-- Services EN -->
   <url>
     <loc>https://lexsap.com.pe/services.php</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsap.com.pe/services.php"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://lexsap.com.pe/es/servicios.php"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsap.com.pe/services.php"/>
   </url>
+
+  <!-- Services ES -->
   <url>
     <loc>https://lexsap.com.pe/es/servicios.php</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://lexsap.com.pe/services.php"/>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://lexsap.com.pe/es/servicios.php"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsap.com.pe/services.php"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsap.com.pe/services.php"/>
   </url>
+
+  <!-- About Us EN -->
+  <url>
+    <loc>https://lexsap.com.pe/about_us.php</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsap.com.pe/about_us.php"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lexsap.com.pe/es/nosotros.php"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsap.com.pe/about_us.php"/>
+  </url>
+
+  <!-- About Us ES -->
+  <url>
+    <loc>https://lexsap.com.pe/es/nosotros.php</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://lexsap.com.pe/es/nosotros.php"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsap.com.pe/about_us.php"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsap.com.pe/about_us.php"/>
+  </url>
+
+  <!-- Contact EN -->
   <url>
     <loc>https://lexsap.com.pe/contact.php</loc>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://lexsap.com.pe/contact.php"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://lexsap.com.pe/es/contacto.php"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsap.com.pe/contact.php"/>
   </url>
+
+  <!-- Contact ES -->
   <url>
     <loc>https://lexsap.com.pe/es/contacto.php</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://lexsap.com.pe/contact.php"/>
+    <lastmod>2026-10-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://lexsap.com.pe/es/contacto.php"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://lexsap.com.pe/contact.php"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://lexsap.com.pe/contact.php"/>
   </url>
 </urlset>

@@ -1,8 +1,13 @@
 <?php
-include 'vistas/head.php';
-?>
-<?php
 $pagina = "nosotros";
+$page_title = "Nosotros | LEXSAP - Especialistas en Propiedad Intelectual en Lima Perú";
+$page_description = "Conozca al equipo multidisciplinario de LEXSAP en Lima, Perú. Especialistas con amplia trayectoria en la protección de marcas y patentes.";
+$page_keywords = "lexsap nosotros, estudio juridico marcas lima, abogados patentes peru, especialistas propiedad intelectual peru";
+$canonical_url = "https://lexsap.com.pe/es/nosotros.php";
+$alternate_en = "https://lexsap.com.pe/about_us.php";
+$alternate_es = "https://lexsap.com.pe/es/nosotros.php";
+$breadcrumb_name = "Nosotros";
+include 'vistas/head.php';
 include 'vistas/navbar.php';
 ?>
 
@@ -15,7 +20,7 @@ include 'vistas/navbar.php';
                 <li><a href="index.php">Inicio</a></li>
                 <li>Nosotros</li>
             </ol>
-            <h2>Nosotros</h2>
+            <h1>Nosotros</h1>
         </div>
     </section><!-- End Breadcrumbs -->
 
@@ -25,14 +30,14 @@ include 'vistas/navbar.php';
 
             <div class="row">
                 <div class="col-lg-6">
-                    <img src="../assets/img/about.jpg" class="img-fluid" alt="">
+                    <img src="../assets/img/about.jpg" class="img-fluid" alt="Equipo de Abogados LEXSAP INTELLECTUAL PROPERTY EIRL">
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 content">
-                    <h3>LEXSAP INTELLECTUAL PROPERTY EIRL</h3>
+                    <h2>LEXSAP INTELLECTUAL PROPERTY EIRL</h2>
                     <ul>
-                        <li><i class="icofont-check-circled"></i> En <strong>Lexsap</strong> contamos con un especializado y amplio conocimiento en materia de Propiedad Intelectual, así como en Litigios y Registros Sanitarios. Años de experiencia de nuestros profesionales son nuestro mejor aval.</li>
-                        <li><i class="icofont-check-circled"></i> Representamos los intereses de medianas y pequeñas empresas, a las que brindamos un servicio altamente profesional. El servicio ofrecido a nuestros clientes garantiza tranquilidad  y seguridad.</li>
-                        <li><i class="icofont-check-circled"></i> Sabemos lo que representa una empresa y lo necesario que resulta explicar y detallar de forma sencilla, situaciones complejas, asimismo entendemos que la solución a sus problemas debe ser económica y beneficiosa para nuestros clientes.</li>
+                        <li><i class="icofont-check-circled"></i> En <strong>Lexsap</strong> contamos con un especializado y amplio conocimiento en materia de Propiedad Intelectual, así como en Litigios. Años de experiencia de nuestros profesionales son nuestro mejor aval.</li>
+                        <li><i class="icofont-check-circled"></i> Representamos los intereses de medianas y pequeñas empresas, a las que brindamos un servicio altamente profesional. El servicio ofrecido a nuestros clientes garantiza tranquilidad y seguridad.</li>
+                        <li><i class="icofont-check-circled"></i> Sabemos lo que representa una empresa y lo necesario que resulta explicar y detallar de forma sencilla situaciones complejas; asimismo entendemos que la solución a sus problemas debe ser económica y beneficiosa para nuestros clientes.</li>
                         <li><i class="icofont-check-circled"></i> Nuestros servicios profesionales garantizan a nuestros clientes una atención personalizada y comprometida con el éxito en cada gestión.</li>
                     </ul>
 

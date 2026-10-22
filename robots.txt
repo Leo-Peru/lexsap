@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Bloqueo de directorios privados y copias de seguridad
+Disallow: /cgi-bin/
+Disallow: /*.BKP*
+Disallow: /*.tar.gz
+
+# Mapa del Sitio XML
+Sitemap: https://lexsap.com.pe/sitemap.xml

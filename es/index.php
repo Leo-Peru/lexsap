@@ -1,8 +1,12 @@
 <?php
-include 'vistas/head.php';
-?>
-<?php
 $pagina = "index";
+$page_title = "LEXSAP | Abogados de Propiedad Intelectual en Perú";
+$page_description = "Estudio jurídico líder en Lima, Perú especializado en registro de marcas, patentes de invención, litigios de PI. Asesoría integral.";
+$page_keywords = "registro marcas peru, registro patentes indecopi, litigios marcas peru, registros sanitarios digemid, registros digesa, abogados propiedad intelectual lima";
+$canonical_url = "https://lexsap.com.pe/es/";
+$alternate_en = "https://lexsap.com.pe/";
+$alternate_es = "https://lexsap.com.pe/es/";
+include 'vistas/head.php';
 include 'vistas/navbar.php';
 ?>
 
@@ -20,10 +24,11 @@ include 'vistas/navbar.php';
                     <div class="carousel-container">
                         <div class="carousel-content">
                             <div>
-                                <img class="img-fluid" src="../assets/img/logo/logox800.jpg" alt="">
+                                <img class="img-fluid" src="../assets/img/logo/logox800.jpg" alt="LEXSAP Abogados de Propiedad Intelectual en Perú">
                             </div>
                             <br>
-                            <p class="animated fadeInUp">Contamos con un especializado y amplio conocimiento en materia de Propiedad Intelectual, así como en Litigios y Registros Sanitarios.</p>
+                            <h1 class="animated fadeInDown">Firma de Abogados en <span>Propiedad Intelectual</span> en Perú</h1>
+                            <p class="animated fadeInUp">Contamos con un especializado y amplio conocimiento en materia de Propiedad Intelectual, así como en Litigios.</p>
                             <a href="nosotros.php" class="btn-get-started animated fadeInUp">Conozca más</a>
                         </div>
                     </div>
@@ -35,7 +40,7 @@ include 'vistas/navbar.php';
                         <div class="carousel-content">
                             <h2 class="animated fadeInDown"><span>Propiedad Intelectual</span></h2>
                             <p class="animated fadeInUp">Tenemos amplia experiencia en asesorar a empresas nacionales y extranjeras en temas de Marcas y derechos de autor, Patentes, Litigios de Propiedad Intelectual.</p>
-                            <a href="services.php" class="btn-get-started animated fadeInUp">Conozca más</a>
+                            <a href="servicios.php" class="btn-get-started animated fadeInUp">Conozca más</a>
                         </div>
                     </div>
                 </div>
@@ -46,7 +51,7 @@ include 'vistas/navbar.php';
                         <div class="carousel-content">
                             <h2 class="animated fadeInDown"><span>Registros Sanitarios</span></h2>
                             <p class="animated fadeInUp">Brindamos a nuestros clientes una asesoría especializada en temas de Registros Sanitarios ante DIGEMID y DIGESA en el Perú.</p>
-                            <a href="services.php" class="btn-get-started animated fadeInUp">Conozca más</a>
+                            <a href="servicios.php" class="btn-get-started animated fadeInUp">Conozca más</a>
                         </div>
                     </div>
                 </div>
@@ -100,7 +105,7 @@ include 'vistas/navbar.php';
     <section id="clients" class="clients">
         <div class="container">
             <div class="section-title">
-                <h1 class="animated fadeInDown">Principales clientes</h1>
+                <h2 class="animated fadeInDown">Principales Clientes</h2>
                 <p>Agradecemos a nuestros clientes nacionales y extranjeros, por la confianza depositada en
                     <span>LEXSAP</span> Estudio Jurídico, quienes nos han encargado el registro y protección de sus marcas.
                     Ahora pueden comercializar sus productos y servicios en el mercado peruano, con la seguridad y confianza de estar protegidos
@@ -110,211 +115,219 @@ include 'vistas/navbar.php';
 
             <div class="owl-carousel clients-carousel">
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-2.jpeg" alt="Grupo Emi">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-2.jpeg" alt="Grupo Emi">
                     <p>Colombia</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-1.jpeg" alt="Xaruni">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-1.jpeg" alt="Xaruni">
                     <p>Perú</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-3.jpeg" alt="CODELCA">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-3.jpeg" alt="CODELCA">
                     <p>Colombia</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-4.jpeg" alt="ATUNGA">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-4.jpeg" alt="ATUNGA">
                     <p>Perú</p>
                 </div>
                 <div class="centrar-texto-negrita center-align">
-                    <img src="../assets/img/clientes/cliente-5.jpeg" alt="WIN DIESEL">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-5.jpeg" alt="WIN DIESEL">
                     <p>China</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-6.jpeg" alt="SAUSABE">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-6.jpeg" alt="SAUSABE">
                     <p>Canadá</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-7.jpeg" alt="LUBCOM">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-7.jpeg" alt="LUBCOM">
                     <p class="centrar-texto-negrita">Perú</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-8.jpeg" alt="ECOBEL">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-8.jpeg" alt="ECOBEL">
                     <p>Ecuador</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-9.jpeg" alt="KYP Bioingeniería">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-9.jpeg" alt="KYP Bioingeniería">
                     <p>Perú</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-10.jpeg" alt="Fast Lane">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-10.jpeg" alt="Fast Lane">
                     <p>Perú</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-11.jpeg" alt="el parque">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-11.jpeg" alt="el parque">
                     <p>Perú</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-12.jpeg" alt="Greetmed">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-12.jpeg" alt="Greetmed">
                     <p>China</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-13.jpeg" alt="Daro SAC">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-13.jpeg" alt="Daro SAC">
                     <p>Perú</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-15.jpeg" alt="Prinx Chengshan Fortune">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-14.jpeg" alt="Latoja">
+                    <p>Perú</p>
+                </div>
+                <div class="centrar-texto-negrita">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-15.jpeg" alt="Prinx Chengshan Fortune">
                     <p>China</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-16.jpeg" alt="A CAMINAR">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-16.jpeg" alt="A CAMINAR">
                     <p>"A CAMINAR" Perú</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-17.jpeg" alt="BLESS">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-17.jpeg" alt="BLESS">
                     <p>Perú</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-18.jpeg" alt="MEYLE">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-18.jpeg" alt="MEYLE">
                     <p>Alemania</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-19.jpeg" alt="CODEMET">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-19.jpeg" alt="CODEMET">
                     <p>Ecuador</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-20.jpeg" alt="Naturagro s.a.">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-20.jpeg" alt="Naturagro s.a.">
                     <p>Perú</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-21.jpeg" alt="Defani">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-21.jpeg" alt="Defani">
                     <p>Perú</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-22.jpeg" alt="Shuan">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-22.jpeg" alt="Shuan">
                     <p>Perú</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-23.jpeg" alt="Ginsac Perú">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-23.jpeg" alt="Ginsac Perú">
                     <p>Perú</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-24.jpeg" alt="MK Makaco">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-24.jpeg" alt="MK Makaco">
                     <p>Perú</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-25.jpeg" alt="Silver Green">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-25.jpeg" alt="Silver Green">
                     <p>China</p>
                 </div>
                 <div class="centrar-texto-negrita center-align">
-                    <img src="../assets/img/clientes/cliente-26.jpeg" alt="INDUSTRIAS NETTALCO S.A.">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-26.jpeg" alt="INDUSTRIAS NETTALCO S.A.">
                     <p>Perú</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-28.jpeg" alt="Western Clean">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-27.jpeg" alt="LAUNCH">
                     <p>Perú</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-29.jpeg" alt="FUMOSAC">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-28.jpeg" alt="Western Clean">
                     <p>Perú</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-30.jpeg" alt="Cape Golden">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-29.jpeg" alt="FUMOSAC">
+                    <p>Perú</p>
+                </div>
+                <div class="centrar-texto-negrita">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-30.jpeg" alt="Cape Golden">
                     <p>China</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-31.jpeg" alt="SINODRILLS">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-31.jpeg" alt="SINODRILLS">
                     <p>China</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-32.jpeg" alt="Esa Soy Yo">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-32.jpeg" alt="Esa Soy Yo">
                     <p>Perú</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-33.jpeg" alt="Velásquez">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-33.jpeg" alt="Velásquez">
                     <p>Perú</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-34.jpeg" alt="A Caminar">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-34.jpeg" alt="A Caminar">
                     <p>Perú</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-35.jpeg" alt="Don Churro">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-35.jpeg" alt="Don Churro">
                     <p>Perú</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-44.png" alt="OBD2 Soluciones">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-44.png" alt="OBD2 Soluciones">
                     <p>Perú</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-39.png" alt="LatanFiberHome">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-39.png" alt="LatanFiberHome">
                     <p>Ecuador</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-36.jpg" alt="Pluzz">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-36.jpg" alt="Pluzz">
                     <p>China</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-43.jpg" alt="TecFresh">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-43.jpg" alt="TecFresh">
                     <p>Perú</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-40.png" alt="Vega Filters">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-40.png" alt="Vega Filters">
                     <p>Nevis</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-38.jpg" alt="Benéfica">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-38.jpg" alt="Benéfica">
                     <p>Ecuador</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-41.gif" alt="Vita light">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-41.gif" alt="Vita light">
                     <p>Perú</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-37.png" alt="Ritherm">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-37.png" alt="Ritherm">
                     <p>China</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-42.gif" alt="Aquamec">
+                    <img loading="lazy" src="../assets/img/clientes/cliente-42.gif" alt="Aquamec">
                     <p>Perú</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-45.jpeg" alt="Castro Sport">
+                     <img loading="lazy" src="../assets/img/clientes/cliente-45.jpeg" alt="Castro Sport">
                     <p>Perú</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-46.jpeg" alt="Aluen CAP">
+                     <img loading="lazy" src="../assets/img/clientes/cliente-46.jpeg" alt="Aluen CAP">
                     <p>Argentina</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-47.jpeg" alt="Deyali">
+                     <img loading="lazy" src="../assets/img/clientes/cliente-47.jpeg" alt="Deyali">
                     <p>Perú</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-48.jpeg" alt="Flores PW">
+                     <img loading="lazy" src="../assets/img/clientes/cliente-48.jpeg" alt="Flores PW">
                     <p>Chile</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-49.jpeg" alt="Physiolaser">
+                     <img loading="lazy" src="../assets/img/clientes/cliente-49.jpeg" alt="Physiolaser">
                     <p>Italia</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-50.jpeg" alt="CROM Cr2">
+                     <img loading="lazy" src="../assets/img/clientes/cliente-50.jpeg" alt="CROM Cr2">
                     <p>Panamá</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-51.jpeg" alt="Golden Axxion">
+                     <img loading="lazy" src="../assets/img/clientes/cliente-51.jpeg" alt="Golden Axxion">
                     <p>México</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-52.jpeg" alt="Hidromec">
+                     <img loading="lazy" src="../assets/img/clientes/cliente-52.jpeg" alt="Hidromec">
                     <p>Perú</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-53.jpeg" alt="Procomex">
+                     <img loading="lazy" src="../assets/img/clientes/cliente-53.jpeg" alt="Procomex">
                     <p>Perú</p>
                 </div>
                 <div class="centrar-texto-negrita">
-                    <img src="../assets/img/clientes/cliente-54.jpeg" alt="Mar Ludico">
+                     <img loading="lazy" src="../assets/img/clientes/cliente-54.jpeg" alt="Mar Ludico">
                     <p>Perú</p>
                 </div>
 
@@ -328,7 +341,7 @@ include 'vistas/navbar.php';
         <div class="container">
             <div class="section-title">
                 <h2 class="animated fadeInDown">Abogados, Químicos Farmacéuticos, Científicos e Ingenieros.</h2>
-                <p>En <strong>Lexsap</strong> brindamos asesoramiento a clientes nacionales y extranjeros en las diferentes áreas de la Propiedad Intelectual y Registros Sanitarios, mediante una robusta red de socios en todo el mundo.</p>
+                <p>En <strong>Lexsap</strong> brindamos asesoramiento a clientes nacionales y extranjeros en las diferentes áreas de la Propiedad Intelectual, mediante una robusta red de socios en todo el mundo.</p>
             </div>
             <div class="section-title">
                 <h2 class="animated fadeInDown">LEXSAP<span> INTELLECTUAL PROPERTY</span></h2>
