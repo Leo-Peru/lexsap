@@ -78,23 +78,31 @@ include 'vistas/navbar.php';
     <!-- ======= Featured Section ======= -->
     <section id="featured" class="featured">
         <div class="container">
+            <div class="section-title">
+                <h2>Servicios Legales Especializados en Perú</h2>
+                <p>Estudio Jurídico Líder en Propiedad Intelectual Brindando Protección Estratégica a sus Activos</p>
+            </div>
 
             <div class="row">
                 <div class="col-lg-4">
                     <div class="icon-box">
                         <i class="bx bx-copyright"></i>
-                        <h3><a href="servicios.php">Propiedad Intelectual</a></h3>
-
+                        <h3><a href="servicios.php">Marcas y Derechos de Autor</a></h3>
+                        <p>Asesoría de alto nivel en registro de marcas, defensa de signos distintivos y derechos de autor ante INDECOPI.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 mt-4 mt-lg-0">
-
+                    <div class="icon-box">
+                        <i class="bx bx-layer"></i>
+                        <h3><a href="servicios.php">Servicios de Patentes en Perú</a></h3>
+                        <p>Abogados de patentes en Perú especializados en patentes de invención, entrada a fase nacional PCT y diseños industriales.</p>
+                    </div>
                 </div>
                 <div class="col-lg-4 mt-4 mt-lg-0">
                     <div class="icon-box">
-                        <i class="bx bx-building-house"></i>
-                        <h3><a href="servicios.php">Registros Sanitarios</a></h3>
-
+                        <i class="bx bx-briefcase"></i>
+                        <h3><a href="servicios.php">Otros Servicios</a></h3>
+                        <p>Asesoría legal integral en licencias de marcas, contratos de franquicia, defensa contra competencia desleal y asesoría corporativa.</p>
                     </div>
                 </div>
             </div>

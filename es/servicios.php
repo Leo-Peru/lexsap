@@ -1,8 +1,8 @@
 <?php
 $pagina = "servicios";
 $page_title = "Servicios de Propiedad Intelectual marcas y patentes en Perú | LEXSAP";
-$page_description = "Servicios legales y regulatorios integrales en Perú: Registro de marcas y derechos de autor, patentes, litigios de PI, licencias y contratos";
-$page_keywords = "servicios propiedad intelectual, registro marcas indecopi, patentes peru, litigios marcas, registros sanitarios digemid, autorizacion digesa peru";
+$page_description = "Servicios legales y regulatorios integrales en Perú: Registro de marcas y derechos de autor, patentes, litigios de PI, licencias y registros sanitarios DIGEMID y DIGESA en Lima Perú.";
+$page_keywords = "servicios de patentes en peru, abogados de patentes en peru, registro de marcas indecopi, litigios de marcas peru, registros sanitarios digemid, autorizacion digesa peru";
 $canonical_url = "https://lexsap.com.pe/es/servicios.php";
 $alternate_en = "https://lexsap.com.pe/services.php";
 $alternate_es = "https://lexsap.com.pe/es/servicios.php";
@@ -122,6 +122,59 @@ include 'vistas/navbar.php';
             </div>
         </div>
     </section><!-- End Services Section -->
+
+    <!-- ======= Soluciones y Preguntas Frecuentes en Perú ======= -->
+    <section id="services-faq" class="services section-bg pt-4 pb-5">
+        <div class="container">
+            <div class="section-title">
+                <h2>Preguntas Frecuentes sobre Propiedad Intelectual en Perú</h2>
+                <p>Orientación Legal Especializada para Empresas, Inventores y Titulares de Marcas</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="icon-box p-4" style="background:#fff; border-radius:8px; border:1px solid #eef; height:100%; box-shadow:0 3px 10px rgba(0,0,0,0.03);">
+                        <h3 style="font-size:18px; font-weight:700; color:#2e2e2e; margin-bottom:12px;"><i class="bx bx-help-circle" style="color:#e96b56; margin-right:8px;"></i> ¿Cómo funciona el registro de patentes en el Perú?</h3>
+                        <p style="font-size:14px; color:#545454; line-height:1.7; margin:0;">
+                            Las patentes en el Perú se solicitan ante la Dirección de Invenciones y Nuevas Tecnologías de INDECOPI, ya sea por vía nacional o mediante el Tratado de Cooperación en materia de Patentes (PCT). Nuestros <strong>abogados de patentes en Perú</strong> guían todo el procedimiento: examen de forma, publicación en la Gaceta Electrónica, examen de patentabilidad (novedad, nivel inventivo y aplicación industrial) y defensa ante eventuales observaciones.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="icon-box p-4" style="background:#fff; border-radius:8px; border:1px solid #eef; height:100%; box-shadow:0 3px 10px rgba(0,0,0,0.03);">
+                        <h3 style="font-size:18px; font-weight:700; color:#2e2e2e; margin-bottom:12px;"><i class="bx bx-help-circle" style="color:#e96b56; margin-right:8px;"></i> ¿Cuál es la diferencia entre patente de invención y diseño industrial?</h3>
+                        <p style="font-size:14px; color:#545454; line-height:1.7; margin:0;">
+                            La patente de invención protege soluciones técnicas y funcionales con una vigencia de 20 años. Los diseños industriales (o patentes de diseño) protegen la apariencia estética externa u ornamental de un objeto (forma bidimensional o tridimensional) por un periodo de 10 años no renovables, impidiendo reproducciones no autorizadas por competidores.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="icon-box p-4" style="background:#fff; border-radius:8px; border:1px solid #eef; height:100%; box-shadow:0 3px 10px rgba(0,0,0,0.03);">
+                        <h3 style="font-size:18px; font-weight:700; color:#2e2e2e; margin-bottom:12px;"><i class="bx bx-help-circle" style="color:#e96b56; margin-right:8px;"></i> ¿Por qué registrar marcas y derechos de autor con un estudio especializado?</h3>
+                        <p style="font-size:14px; color:#545454; line-height:1.7; margin:0;">
+                            Registrar formalmente una marca en INDECOPI otorga el derecho de uso exclusivo en el territorio peruano durante 10 años renovables. En derechos de autor, garantiza la titularidad sobre software, obras artísticas y literarias, permitiendo el licenciamiento comercial seguro y la interposición de denuncias por piratería o uso indebido.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="icon-box p-4" style="background:#fff; border-radius:8px; border:1px solid #eef; height:100%; box-shadow:0 3px 10px rgba(0,0,0,0.03);">
+                        <h3 style="font-size:18px; font-weight:700; color:#2e2e2e; margin-bottom:12px;"><i class="bx bx-help-circle" style="color:#e96b56; margin-right:8px;"></i> ¿Qué otros servicios legales y de propiedad intelectual ofrece LEXSAP?</h3>
+                        <p style="font-size:14px; color:#545454; line-height:1.7; margin:0;">
+                            Además de marcas y patentes, brindamos asesoría jurídica especializada en licencias y franquicias comerciales, secretos empresariales, resolución de controversias sobre nombres de dominio, competencia desleal y gestión estratégica de carteras de propiedad intelectual en el Perú.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-3">
+                <a href="contacto.php" class="btn-get-started animated fadeInUp" style="display:inline-block; background:#e96b56; color:#fff; padding:10px 30px; border-radius:50px; text-decoration:none; font-weight:600;">Solicitar Asesoría Legal</a>
+            </div>
+
+        </div>
+    </section><!-- End FAQ / SEO Section -->
 
 </main><!-- End #main -->
 

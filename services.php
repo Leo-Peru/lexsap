@@ -1,8 +1,8 @@
 <?php
 $pagina = "servicios";
 $page_title = "Services | Intellectual Property Law Firm in Peru - LEXSAP";
-$page_description = "Comprehensive IP and regulatory services in Peru: Trademark and Copyright registration, Patent prosecution, IP litigation, licensing in Lima Perú.";
-$page_keywords = "trademark registration peru, patent prosecution indecopi, IP litigation lawyers lima";
+$page_description = "Comprehensive IP and regulatory services in Peru: Trademark and Copyright registration, Patent prosecution, IP litigation, licensing, and DIGEMID/DIGESA health registries in Lima Perú.";
+$page_keywords = "patent services in peru, patent attorneys in peru, design patent attorney peru, copyright attorney peru, ip law firm in peru, trademark registration peru, DIGEMID, DIGESA";
 $canonical_url = "https://lexsap.com.pe/services.php";
 $alternate_en = "https://lexsap.com.pe/services.php";
 $alternate_es = "https://lexsap.com.pe/es/servicios.php";
@@ -124,6 +124,59 @@ include 'vistas/navbar.php';
             </div>
         </div>
     </section><!-- End Services Section -->
+
+    <!-- ======= Comprehensive IP & Regulatory Solutions in Peru Section ======= -->
+    <section id="services-faq" class="services section-bg pt-4 pb-5">
+        <div class="container">
+            <div class="section-title">
+                <h2>Frequently Asked Questions on IP Law in Peru</h2>
+                <p>Essential Guidance for International Companies, Inventors, and Patent Applicants in Peru</p>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="icon-box p-4" style="background:#fff; border-radius:8px; border:1px solid #eef; height:100%; box-shadow:0 3px 10px rgba(0,0,0,0.03);">
+                        <h3 style="font-size:18px; font-weight:700; color:#2e2e2e; margin-bottom:12px;"><i class="bx bx-help-circle" style="color:#e96b56; margin-right:8px;"></i> How do patent services in Peru work for foreign applicants?</h3>
+                        <p style="font-size:14px; color:#545454; line-height:1.7; margin:0;">
+                            Foreign applicants can enter the Peruvian national phase via the Patent Cooperation Treaty (PCT) within 30 months from the priority date, or file directly claiming Paris Convention priority within 12 months. Our <strong>patent attorneys in Peru</strong> handle the complete process: formal examination, publication in the Official Gazette, patentability examination, and response to office actions before INDECOPI.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="icon-box p-4" style="background:#fff; border-radius:8px; border:1px solid #eef; height:100%; box-shadow:0 3px 10px rgba(0,0,0,0.03);">
+                        <h3 style="font-size:18px; font-weight:700; color:#2e2e2e; margin-bottom:12px;"><i class="bx bx-help-circle" style="color:#e96b56; margin-right:8px;"></i> What is the difference between an invention patent and a design patent in Peru?</h3>
+                        <p style="font-size:14px; color:#545454; line-height:1.7; margin:0;">
+                            An invention patent protects the functional and technical novelty of a product or process for 20 years. In contrast, industrial designs (often called design patents internationally) protect the novel ornamental and aesthetic appearance of an object for 10 years. An experienced <strong>design patent attorney in Peru</strong> ensures proper classification and robust claims to prevent copies.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="icon-box p-4" style="background:#fff; border-radius:8px; border:1px solid #eef; height:100%; box-shadow:0 3px 10px rgba(0,0,0,0.03);">
+                        <h3 style="font-size:18px; font-weight:700; color:#2e2e2e; margin-bottom:12px;"><i class="bx bx-help-circle" style="color:#e96b56; margin-right:8px;"></i> Why hire a dedicated copyright attorney in Peru?</h3>
+                        <p style="font-size:14px; color:#545454; line-height:1.7; margin:0;">
+                            A specialized <strong>copyright attorney in Peru</strong> secures official registration with INDECOPI's Copyright Directorate, establishes clear chain of title, drafts software licensing and assignment agreements, and enforces anti-infringement measures against piracy and unauthorized digital distribution.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="icon-box p-4" style="background:#fff; border-radius:8px; border:1px solid #eef; height:100%; box-shadow:0 3px 10px rgba(0,0,0,0.03);">
+                        <h3 style="font-size:18px; font-weight:700; color:#2e2e2e; margin-bottom:12px;"><i class="bx bx-help-circle" style="color:#e96b56; margin-right:8px;"></i> What other specialized legal and IP services does LEXSAP provide?</h3>
+                        <p style="font-size:14px; color:#545454; line-height:1.7; margin:0;">
+                            Beyond trademarks and patents, our firm provides expert legal counsel in trademark licensing, franchise agreements, trade secret protection, anti-counterfeiting strategies, domain name dispute resolution, and comprehensive corporate IP portfolio management in Peru.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-3">
+                <a href="contact.php" class="btn-get-started animated fadeInUp" style="display:inline-block; background:#e96b56; color:#fff; padding:10px 30px; border-radius:50px; text-decoration:none; font-weight:600;">Request Legal Consultation</a>
+            </div>
+
+        </div>
+    </section><!-- End FAQ / SEO Section -->
 
 </main><!-- End #main -->
 

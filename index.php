@@ -81,23 +81,31 @@ include 'vistas/navbar.php';
     <!-- ======= Featured Section ======= -->
     <section id="featured" class="featured">
         <div class="container">
+            <div class="section-title">
+                <h2>Specialized Legal Services in Peru</h2>
+                <p>Trusted IP Law Firm in Peru Providing Strategic Protection for Your Commercial Assets</p>
+            </div>
 
             <div class="row">
                 <div class="col-lg-4">
                     <div class="icon-box">
                         <i class="bx bx-copyright"></i>
-                        <h3><a href="services.php">Intellectual Property</a></h3>
-
+                        <h3><a href="services.php">Trademarks & Copyrights</a></h3>
+                        <p>High-level advice on trademark registration, brand protection, and copyright attorney services in Peru before INDECOPI.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 mt-4 mt-lg-0">
-
+                    <div class="icon-box">
+                        <i class="bx bx-layer"></i>
+                        <h3><a href="services.php">Patent Services in Peru</a></h3>
+                        <p>Expert patent attorneys in Peru handling invention patents, PCT filings, utility models, and design patent prosecution.</p>
+                    </div>
                 </div>
                 <div class="col-lg-4 mt-4 mt-lg-0">
                     <div class="icon-box">
-                        <i class="bx bx-building-house"></i>
-                        <h3><a href="services.php">Health Registries</a></h3>
-
+                        <i class="bx bx-briefcase"></i>
+                        <h3><a href="services.php">Other Services</a></h3>
+                        <p>Comprehensive legal counsel in IP licensing, franchise agreements, unfair competition defense, and corporate legal advisory.</p>
                     </div>
                 </div>
             </div>
